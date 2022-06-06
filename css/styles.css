@@ -1,0 +1,100 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-bg-color: #f5f4fa;
+  --primary-white-color: #ffffff;
+}
+body {
+  color: var(--primary-text-color);
+}
+
+/* index.html */
+.list {
+  list-style: none;
+}
+.logo {
+  color: #000000;
+}
+.logo-primary {
+  color: var(--accent-color);
+}
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero-title {
+  color: #ffffff;
+}
+/* Button */
+.button-primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+/* Section */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Features */
+
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+/* Our Team */
+
+.team-list .title {
+  color: var(--title-text-color);
+}
+
+/* Contacts */
+
+.contacts .address-link {
+  color: var(--primary-white-color);
+}
+.contacts .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Portfolio */
+
+/* Button */
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primary-bg-color);
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.contacts .link:hover,
+.contacts .address-link:hover,
+.contacts .link:focus,
+.contacts .address-link:focus {
+  color: var(--accent-color);
+}
+/* Exemples */
+.exemples .title {
+  color: var(--title-text-color);
+}
+.exemples .text {
+  color: var(--primary-text-color);
+}
+.logo-secondary {
+  color: var(--primary-white-color);
+}
