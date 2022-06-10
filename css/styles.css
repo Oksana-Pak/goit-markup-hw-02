@@ -15,10 +15,16 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* index.html */
+/* common styles */
 .list {
   list-style: none;
 }
+.link {
+  text-decoration: none;
+}
+
+/* index.html */
+
 .logo {
   color: var(--accent-color);
 
@@ -26,7 +32,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  text-decoration: none;
 }
 .logo-primary {
   color: var(--first-logo-color);
@@ -38,7 +43,6 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -139,20 +143,18 @@ body {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  text-decoration: none;
 }
 
-.contacts .link {
+.contacts .contacts-details {
   color: var(--contacts-color);
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  text-decoration: none;
 }
 
-.contacts .link:hover,
+.contacts .contacts-details:hover,
 .contacts .address-link:hover,
-.contacts .link:focus,
+.contacts .contacts-details:focus,
 .contacts .address-link:focus {
   color: var(--accent-color);
 }
@@ -176,12 +178,12 @@ body {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
-
+.current-button {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
 /* Exemples */
 
-.exemples .link {
-  text-decoration: none;
-}
 .exemples .title {
   color: var(--title-text-color);
 
