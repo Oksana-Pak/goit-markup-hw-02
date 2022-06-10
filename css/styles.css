@@ -102,6 +102,7 @@ body {
   line-height: 1.17;
   text-align: center;
 }
+
 /* Our Team */
 
 .team-section {
@@ -121,6 +122,7 @@ body {
 .section-card {
   background-color: var(--primary-white-color);
 }
+
 /* Contacts */
 
 .logo-secondary {
@@ -176,6 +178,7 @@ body {
 }
 
 /* Exemples */
+
 .exemples .link {
   text-decoration: none;
 }
